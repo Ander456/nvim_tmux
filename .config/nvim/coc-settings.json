@@ -1,0 +1,17 @@
+{
+	"suggest.noselect": true,
+	"suggest.timeout": 500,
+	"diagnostic.virtualText": true,
+	"languageserver": {
+    "lua": {
+      "command": "lua-lsp",
+      "filetypes": ["lua"]
+    },
+	"go": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod"],
+      "trace.server": "verbose",
+      "filetypes": ["go"]
+    }
+  }
+}
